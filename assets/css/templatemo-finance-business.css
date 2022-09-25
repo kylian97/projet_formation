@@ -7,6 +7,7 @@ https://templatemo.com/tm-545-finance-business
 */
 :root{
 	--primary-color : #639fe8;
+	--secondary-color: #e8ac63;
 }
 body {
   font-family: 'Poppins', sans-serif;
@@ -385,7 +386,7 @@ header .navbar {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	height:95vh;
+	height:100vh;
 }
 
 .Modern-Slider .item-1 .img-fill {
@@ -442,18 +443,19 @@ ul.slick-dots {
   display: none!important;
 }
 
-.Modern-Slider .text-content {
+.main-banner .text-content {
 	text-align: left;
   	width: 75%;
   	position: absolute;
+	z-index:2;
   	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
 }
 
-.Modern-Slider .item h6 {
+.main-banner .text-content h6 {
   margin-bottom: 15px;
-  font-size: 22px;
+  font-size: 27px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
@@ -461,8 +463,8 @@ ul.slick-dots {
   animation:fadeOutRight 1s both;
 }
 
-.Modern-Slider .item h4 {
-  margin-bottom: 30px;
+.main-banner .text-content h4 {
+  margin-bottom: 35px;
   text-transform: uppercase;
   font-size: 44px;
   font-weight: 700;
@@ -472,36 +474,36 @@ ul.slick-dots {
   animation:fadeOutLeft 1s both;
 }
 
-.Modern-Slider .item p {
-	max-width: 570px;
+.main-banner .text-content p {
+	max-width: 900px;
 	color: #fff;
-	font-size: 15px;
+	font-size: 19px;
 	font-weight: 400;
 	line-height: 30px;
 	margin-bottom: 40px;
 }
 
-.Modern-Slider .item a {
+.main-banner .main-banner a {
   margin: 0 5px;
 }
 
-.Modern-Slider .item.slick-active h6{
+.main-banner .main-banner.slick-active h6{
   animation:fadeInDown 1s both 1s;
 }
 
-.Modern-Slider .item.slick-active h4{
+.main-bannerr .main-banner.slick-active h4{
   animation:fadeInLeft 1s both 1.5s;
 }
 
-.Modern-Slider .item.slick-active{
+.main-banner .main-banner.slick-active{
   animation:Slick-FastSwipeIn 1s both;
 }
 
-.Modern-Slider .buttons {
+.main-banner .buttons {
   position: relative;
 }
 
-.Modern-Slider {background:#000;}
+.main-banner {background:#000;}
 
 
 /* ==== Slick Slider Css Ruls === */
@@ -552,7 +554,7 @@ ul.slick-dots {
 /* Services */
 
 .services {
-	margin-top: 140px;
+	margin-top: 80px;
 }
 
 .service-item img {
@@ -582,13 +584,18 @@ ul.slick-dots {
 
 .fun-facts {
 	margin-top: 140px;
-	background-image: url(../images/fun-facts-bg.jpg);
+	background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.600), 
+        rgba(0, 0, 0, 0.600)
+      ),
+      url("../images/travaillons-ensemble.jpg"); 
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 140px 0px;
-	color: #fff;
+	color: var(--primary-color);
 }
 
 .fun-facts span {
@@ -622,9 +629,10 @@ ul.slick-dots {
 
 .count-area-content {
 	text-align: center;
-	background-color: rgba(250,250,250,0.1);
+	background-color: rgba(250,250,250,0.2);
 	padding: 25px 30px 35px 30px;
 	margin: 15px 0px;
+	border-radius: 10px;
 }
 
 .count-digit {
@@ -634,7 +642,7 @@ ul.slick-dots {
     font-size: 36px;
 }
 .count-title {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     color: #fff;
     letter-spacing: 0.5px;
@@ -705,6 +713,13 @@ ul.slick-dots {
 	margin-top: 140px;
 	background-color: #f7f7f7;
 	padding: 140px 0px;
+	background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.550), 
+        rgba(0, 0, 0, 0.550)
+      ),
+      url("../images/témoignages.jpg"); 
+    height: 100vh;
 }
 .testimonial-item .inner-content {
 	text-align: center;
@@ -1338,4 +1353,37 @@ footer .contact-form button.filled-button:hover {
 		color: var(--primary-color)!important;
 		border-bottom: none!important;
 	}
+}
+
+/* new  */
+
+.section-heading .primary-color{
+
+	color: var(--primary-color);
+}
+
+
+.workTogether{ 
+
+	margin: 5px 0px;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.svgWorkTogether{
+
+	width: 80px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.secondary-color{
+	color: var(--secondary-color);
+}
+
+.underline{
+	text-decoration: underline;
 }
