@@ -50,6 +50,7 @@ a.filled-button {
 a.filled-button:hover {
 	background-color: #fff;
 	color: var(--primary-color);
+	border:2px solid var(--primary-color);
 }
 
 a.border-button {
@@ -401,6 +402,10 @@ header .navbar {
 	background-image: url(../images/slide_03.jpg);
 }
 
+.Modern-Slider .item-4 .img-fill {
+	background-image: url(../images/slide_04.jpg);
+}
+
 .Modern-Slider .NextArrow{
   position:absolute;
   top:50%;
@@ -575,7 +580,7 @@ ul.slick-dots {
 }
 
 .service-item .down-content p {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 
