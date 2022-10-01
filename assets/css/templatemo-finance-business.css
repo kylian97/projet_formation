@@ -9,6 +9,9 @@ https://templatemo.com/tm-545-finance-business
 	--primary-color : #639fe8;
 	--secondary-color: #e8ac63;
 }
+html{
+	scroll-behavior: smooth;
+}
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
@@ -777,7 +780,8 @@ ul.slick-dots {
 }
 
 .callback-form {
-	margin-top: 140px;
+	margin-top: 80px;
+	height:100vh;
 }
 
 .callback-form .contact-form {
