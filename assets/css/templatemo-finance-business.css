@@ -780,8 +780,8 @@ ul.slick-dots {
 }
 
 .callback-form {
-	margin-top: 80px;
-	height:100vh;
+	margin-top: 20px;
+	min-height:85vh;
 }
 
 .callback-form .contact-form {
@@ -1253,6 +1253,24 @@ footer .contact-form button.filled-button:hover {
 
 
 /* Responsive Style */
+
+@media(max-width:420px){
+
+	.main-banner .text-content h6 {
+		font-size: 23px;
+
+	}
+	.main-banner .text-content h4{
+		font-size:33px;
+	}
+	.main-banner .text-content p {
+		font-size: 15px;
+	}
+
+
+
+}
+
 @media (max-width: 768px) {
 	.sub-header {
 		display: none;
