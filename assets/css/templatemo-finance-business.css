@@ -1416,6 +1416,7 @@ margin-bottom:50px;
 .section-heading .secondary-color{
 
 	color: var(--secondary-color);
+	text-shadow: 0px 1px 1px #fff;
 }
 
 
