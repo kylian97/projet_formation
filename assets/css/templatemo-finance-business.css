@@ -576,7 +576,7 @@ ul.slick-dots {
 }
 
 .service-item .down-content {
-	background-color: #f7f7f7;
+	background-color: #e8e7e7;
 	padding: 30px;
 	min-height: 270px;
 }
@@ -626,6 +626,8 @@ ul.slick-dots {
 	font-size: 36px;
 	font-weight: 600;
 	margin-bottom: 35px;
+	color:var(--secondary-color);
+	
 }
 
 .fun-facts em {
@@ -648,12 +650,17 @@ ul.slick-dots {
 	padding: 25px 30px 35px 30px;
 	margin: 15px 0px;
 	border-radius: 7px;
-	height:300px;
+	height:250px;
 	width:250px;
 	display:flex;
 	flex-direction:column;
 	align-items: center;
 	padding:20px 10px;
+	transition:1s;
+}
+.count-area-content:hover {
+	transition:1s;
+transform: translate(0, -30px);
 }
 
 .count-digit {
@@ -664,9 +671,10 @@ ul.slick-dots {
 }
 .count-title {
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     letter-spacing: 0.5px;
+	text-shadow: 0 0.5px 0.5px black;
 }
 
 
@@ -797,7 +805,7 @@ ul.slick-dots {
 
 .callback-form {
 	margin-top: 20px;
-	min-height:85vh;
+	min-height:100vh;
 	display: flex;
     align-items: center;
     justify-content: center;
@@ -1416,7 +1424,6 @@ margin-bottom:50px;
 .section-heading .secondary-color{
 
 	color: var(--secondary-color);
-	text-shadow: 0px 1px 1px #fff;
 }
 
 
@@ -1424,17 +1431,19 @@ margin-bottom:50px;
 
 	margin: 5px 0px;
     color: var(--primary-color);
-    font-weight: 700;
+    font-weight: 600;
     font-size: 20px;
+	text-shadow: 0 0.5px 0.5px black;
 
 }
 .svgWorkTogether{
 
-	width: 80px;
-    border: 1px solid #ffffff;
+	width: 110px;
+   
     border-radius: 50%;
     padding: 15px;
-    background-color: #ffffff;
+	
+   
 }
 
 .secondary-color{
