@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: var(--primary-color);
+	background-color: var(--secondary-color);
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -52,8 +52,8 @@ a.filled-button {
 
 a.filled-button:hover {
 	background-color: #fff;
-	color: var(--primary-color);
-	border:2px solid var(--primary-color);
+	color: var(--secondary-color);
+	border:2px solid var(--secondary-color);
 }
 
 a.border-button {
@@ -87,7 +87,7 @@ a.border-button:hover {
 
 .section-heading em {
 	font-style: normal;
-	color: var(--primary-color);
+	color: var(--secondary-color);
 }
 
 .section-heading span {
@@ -562,7 +562,12 @@ ul.slick-dots {
 /* Services */
 
 .services {
-	margin-top: 80px;
+	margin-top: 50px;
+}
+.service-item{
+
+	border-radius: 5px;
+	overflow:hidden;
 }
 
 .service-item img {
@@ -573,6 +578,7 @@ ul.slick-dots {
 .service-item .down-content {
 	background-color: #f7f7f7;
 	padding: 30px;
+	min-height: 270px;
 }
 
 .service-item .down-content h4 {
@@ -580,6 +586,7 @@ ul.slick-dots {
 	font-weight: 700;
 	letter-spacing: 0.25px;
 	margin-bottom: 15px;
+	color:var(--primary-color);
 }
 
 .service-item .down-content p {
@@ -640,7 +647,13 @@ ul.slick-dots {
 	background-color: rgba(250,250,250,0.2);
 	padding: 25px 30px 35px 30px;
 	margin: 15px 0px;
-	border-radius: 10px;
+	border-radius: 7px;
+	height:300px;
+	width:250px;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	padding:20px 10px;
 }
 
 .count-digit {
@@ -727,6 +740,9 @@ ul.slick-dots {
         rgba(0, 0, 0, 0.550)
       ),
       url("../images/témoignages.jpg"); 
+	  background-size:cover;
+	  background-repeat: no-repeat;
+	  background-position: center;
     height: 100vh;
 }
 .testimonial-item .inner-content {
@@ -782,6 +798,9 @@ ul.slick-dots {
 .callback-form {
 	margin-top: 20px;
 	min-height:85vh;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .callback-form .contact-form {
@@ -1384,9 +1403,19 @@ footer .contact-form button.filled-button:hover {
 
 /* new  */
 
+.h2-margin-bottom{
+
+margin-bottom:50px;
+
+}
 .section-heading .primary-color{
 
 	color: var(--primary-color);
+}
+
+.section-heading .secondary-color{
+
+	color: var(--secondary-color);
 }
 
 
