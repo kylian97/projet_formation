@@ -327,7 +327,7 @@ header .navbar {
 	background-color: #fff;	
 	height: 36px;
 	outline: none;
-	border-radius: 0px;
+	border-radius: 7px;
 	position: absolute;
 	right: 30px;
 	top: 20px;
@@ -578,14 +578,14 @@ ul.slick-dots {
 .service-item .down-content {
 	background-color: #e8e7e7;
 	padding: 30px;
-	min-height: 270px;
+	min-height: 527px;
 }
 
 .service-item .down-content h4 {
 	font-size: 20px;
 	font-weight: 700;
 	letter-spacing: 0.25px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	color:var(--primary-color);
 }
 
@@ -646,15 +646,16 @@ ul.slick-dots {
 
 .count-area-content {
 	text-align: center;
-	background-color: rgba(250,250,250,0.2);
+	background-color: rgba(250,250,250,0.4);
 	padding: 25px 30px 35px 30px;
 	margin: 15px 0px;
-	border-radius: 7px;
-	height:250px;
-	width:250px;
+	border-radius: 50%;
+	height:200px;
+	width:200px;
 	display:flex;
 	flex-direction:column;
 	align-items: center;
+	justify-content: center;
 	padding:20px 10px;
 	transition:1s;
 }
@@ -1430,10 +1431,10 @@ margin-bottom:50px;
 .workTogether{ 
 
 	margin: 5px 0px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: 600;
     font-size: 20px;
-	text-shadow: 0 0.5px 0.5px black;
+	text-shadow: 0 0.5px 0.3px black;
 
 }
 .svgWorkTogether{
@@ -1452,4 +1453,10 @@ margin-bottom:50px;
 
 .underline{
 	text-decoration: underline;
+}
+
+.align-center {
+	display:flex;
+	align-items: center;
+	justify-content: center;
 }
