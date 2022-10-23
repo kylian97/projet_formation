@@ -23,7 +23,7 @@ p {
 	margin-bottom: 0px;
 	font-size: 14px;
 	color: #666666;
-	line-height: 30px;
+	line-height: 24px;
 }
 a {
 	text-decoration: none!important;
@@ -41,10 +41,10 @@ h1,h2,h3,h4,h5,h6 {
 a.filled-button {
 	background-color: var(--secondary-color);
 	color: #fff;
-	font-size: 13px;
+	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 700;
-	padding: 12px 30px;
+	padding: 11px 17px;
 	border-radius: 30px;
 	display: inline-block;
 	transition: all 0.3s;
@@ -577,12 +577,12 @@ ul.slick-dots {
 
 .service-item .down-content {
 	background-color: #e8e7e7;
-	padding: 30px;
-	min-height: 527px;
+	padding: 20px 30px;
+	min-height: 447px;
 }
 
 .service-item .down-content h4 {
-	font-size: 20px;
+	font-size: 19px;
 	font-weight: 700;
 	letter-spacing: 0.25px;
 	margin-bottom: 20px;
