@@ -246,7 +246,6 @@ a.border-button:hover {
 
 /* Header Style */
 header {
-	position: absolute;
 	z-index: 99999;
 	width: 100%;
 	background-color: transparent!important;
@@ -254,7 +253,6 @@ header {
 	-webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
 }
 header .navbar {
 	padding: 20px 0px;
@@ -262,7 +260,7 @@ header .navbar {
 .background-header .navbar {
 	padding: 10px 0px;
 }
-.background-header {
+.background-headers {
 	top: 0;
 	position: fixed;
 	background-color: #fff!important;
@@ -288,15 +286,13 @@ header .navbar {
 	outline: none;
 }
 .navbar .navbar-brand h2 {
-	color: #91bff8;
+	color: var(--primary-color);
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: 700;
 	-webkit-transition: all .3s ease 0s;
     -moz-transition: all .3s ease 0s;
     -o-transition: all .3s ease 0s;
-    transition: all .3s ease 0s;
-	text-shadow: 0px 0.4px 0.4px black;
 }
 .navbar .navbar-brand h2 em {
 	font-style: normal;
@@ -316,7 +312,7 @@ header .navbar {
 	font-size: 17px;
 	font-weight: 400;
 	letter-spacing: 0.5px;
-	color: #fff;
+	color: #1e1e1e;
 	transition: all 0.5s;
 	margin-top: 5px;
 }
@@ -656,7 +652,7 @@ ul.slick-dots {
 
 .count-area-content {
 	text-align: center;
-	background-color: #e8e7e7d9;
+	background-color: #e8e7e7c4;
 	padding: 25px 30px 35px 30px;
 	margin: 15px 0px;
 	border-radius: 50%;
@@ -1211,6 +1207,7 @@ footer .contact-form button.filled-button:hover {
   	letter-spacing: 0.5px;
   	font-weight: 700;
   	transition: all 0.3s;
+    border-radius:8px;
 }
 #tabs ul li a i {
 	float: right;
@@ -1493,5 +1490,7 @@ margin-bottom:50px;
 	}
 
 }
+
+
 
 
