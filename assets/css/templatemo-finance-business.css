@@ -55,6 +55,7 @@ a.filled-button {
 	border-radius: 30px;
 	display: inline-block;
 	transition: all 0.3s;
+	text-align:center;
 }
 
 a.filled-button:hover {
@@ -587,7 +588,7 @@ ul.slick-dots {
 .service-item .down-content {
 	background-color: #e8e7e7;
 	padding: 20px 30px;
-	min-height: 381px;
+	min-height: 300px;
 }
 
 .service-item .down-content h4 {
@@ -1481,6 +1482,14 @@ margin-bottom:50px;
     display: none !important;
 }
 
+.down-content.responsive-down-content{
+	position:relative;
+}
+.bouton_carte_footer{
+	position:absolute;
+	bottom:20px;
+}
+
 
 
 
@@ -1492,6 +1501,33 @@ margin-bottom:50px;
 		padding: 0 13.5px !important;
 	}
 
+}
+
+/* tablette */ 
+
+@media(min-width:767px) and (max-width:991px){
+
+	a.filled-button.bouton_carte {
+		font-size: 9px;
+	}
+	
+.container {
+    max-width: none;
+}
+/* responsive carte */
+
+.service-item .down-content h4 {
+    font-size: 18px;
+
+}
+.service-item .down-content {
+    padding: 20px 15px;
+    min-height: 300px;
+}
+
+.down-content.responsive-down-content p {
+    line-height: 16px;
+}
 }
 
 

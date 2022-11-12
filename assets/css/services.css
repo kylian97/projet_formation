@@ -255,7 +255,7 @@ header {
     -o-transition: all 0.3s ease-in-out 0s;
 }
 header .navbar {
-	padding: 20px 0px;
+	padding: 12px 0px;
 }
 .background-header .navbar {
 	padding: 10px 0px;
@@ -1181,7 +1181,7 @@ footer .contact-form button.filled-button:hover {
 /* Single Service */
 
 .single-services {
-	margin-top: 140px;
+	margin: 140px 0;
 }
 
 #tabs ul {
@@ -1489,6 +1489,13 @@ margin-bottom:50px;
 		padding: 0 13.5px !important;
 	}
 
+}
+
+
+/*css pour services */
+
+.image_header_bilan{
+	border-radius: 8px;
 }
 
 
