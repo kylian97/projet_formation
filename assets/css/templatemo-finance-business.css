@@ -1528,6 +1528,40 @@ margin-bottom:50px;
 .down-content.responsive-down-content p {
     line-height: 16px;
 }
+/*cercle mes valeurs */
+
+.count-area-content{
+	width:150px;
+	height:150px;
+}
+/* texte cercle mes valeurs  */
+.workTogether{
+	font-size:15px;
+}
+
+.fun-facts {
+	background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.1), 
+        rgba(0, 0, 0, 0.1)
+      ),
+      url("../images/travaillons-ensemble-mobile.jpg"); 
+
+}
+}
+
+@media (max-width:766px){
+	.fun-facts {
+		background-image: 
+		  linear-gradient(
+			rgba(0, 0, 0, 0.1), 
+			rgba(0, 0, 0, 0.1)
+		  ),
+		  url("../images/travaillons-ensemble-mobile.jpg"); 
+	
+	}
+
+
 }
 
 
