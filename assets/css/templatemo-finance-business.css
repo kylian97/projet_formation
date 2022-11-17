@@ -297,7 +297,7 @@ header .navbar {
     -moz-transition: all .3s ease 0s;
     -o-transition: all .3s ease 0s;
     transition: all .3s ease 0s;
-	text-shadow: 0px 0.4px 0.4px black;
+	text-shadow: 0px 0.4px 0.4px 0px 0.4px 0.4px #000000a3;
 }
 .navbar .navbar-brand h2 em {
 	font-style: normal;
@@ -637,7 +637,7 @@ ul.slick-dots {
 	font-weight: 600;
 	margin-bottom: 35px;
 	color:#ffc073;
-	text-shadow: 0px 0px 1px #000000bf;
+	text-shadow: 0px 0px 1px #0000008f;
 	
 }
 
@@ -1306,6 +1306,15 @@ footer .contact-form button.filled-button:hover {
 	.main-banner .text-content p {
 		font-size: 15px;
 	}
+	.fun-facts {
+		background-image: 
+		  linear-gradient(
+			rgba(0, 0, 0, 0.1), 
+			rgba(0, 0, 0, 0.1)
+		  ),
+		  url("../images/travaillons-ensemble-mobile-400px.jpg"); 
+	
+	}
 	
 
 
@@ -1544,7 +1553,7 @@ margin-bottom:50px;
         rgba(0, 0, 0, 0.1), 
         rgba(0, 0, 0, 0.1)
       ),
-      url("../images/travaillons-ensemble-mobile.jpg"); 
+      url("../images/travaillons-ensemble-tablette-final.jpg"); 
 
 }
 }
@@ -1556,7 +1565,7 @@ margin-bottom:50px;
 			rgba(0, 0, 0, 0.1), 
 			rgba(0, 0, 0, 0.1)
 		  ),
-		  url("../images/travaillons-ensemble-mobile.jpg"); 
+		  url("../images/travaillons-ensemble-mobile-600px.jpg"); 
 	
 	}
 
