@@ -297,7 +297,7 @@ header .navbar {
     -moz-transition: all .3s ease 0s;
     -o-transition: all .3s ease 0s;
     transition: all .3s ease 0s;
-	text-shadow: 0px 0.4px 0.4px 0px 0.4px 0.4px #000000a3;
+	text-shadow: 0px 0.4px 0.4px #000000a3;
 }
 .navbar .navbar-brand h2 em {
 	font-style: normal;
@@ -469,6 +469,7 @@ ul.slick-dots {
   	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
+	text-shadow : 0px 0.5px 0.5px #000000a3;
 }
 
 .main-banner .text-content h6 {
@@ -499,6 +500,7 @@ ul.slick-dots {
 	font-weight: 400;
 	line-height: 30px;
 	margin-bottom: 40px;
+	
 }
 
 .main-banner .main-banner a {
