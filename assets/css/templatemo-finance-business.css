@@ -1583,22 +1583,16 @@ margin-bottom:50px;
 		  ),
 		  url("../images/travaillons-ensemble-mobile-600px.jpg"); 
 		  
-		
 		background-attachment: initial;
 		
-
 	}
-	.fun-facts h2 {
-		filter: drop-shadow(0px 0px 1px #0000008f);
-	}
+	
 	.workTogether,
-    
+	.fun-facts h2,    
 	.navbar .navbar-brand h2,
 	.main-banner .text-content{
 		text-shadow: none;
 	}
-
-
 
 }
 
