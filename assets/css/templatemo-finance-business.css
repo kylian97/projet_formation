@@ -466,7 +466,7 @@ ul.slick-dots {
   	width: 75%;
   	position: absolute;
 	z-index:2;
-  	top: 50%;
+  	top: 51%;
   	left: 50%;
   	transform: translate(-50%, -50%);
 	text-shadow : 0px 0.5px 0.5px #000000a3;
@@ -1578,8 +1578,8 @@ margin-bottom:50px;
 	.fun-facts {
 		background-image: 
 		  linear-gradient(
-			rgba(0, 0, 0, 0.1), 
-			rgba(0, 0, 0, 0.1)
+			rgba(0, 0, 0, 0.12), 
+			rgba(0, 0, 0, 0.12)
 		  ),
 		  url("../images/travaillons-ensemble-mobile-600px.jpg"); 
 		  
@@ -1588,6 +1588,16 @@ margin-bottom:50px;
 		
 
 	}
+	.fun-facts h2 {
+		filter: drop-shadow(0px 0px 1px #0000008f);
+	}
+	.workTogether,
+    
+	.navbar .navbar-brand h2,
+	.main-banner .text-content{
+		text-shadow: none;
+	}
+
 
 
 }
