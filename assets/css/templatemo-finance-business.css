@@ -1569,6 +1569,7 @@ margin-bottom:50px;
         rgba(0, 0, 0, 0.1)
       ),
       url("../images/travaillons-ensemble-tablette-final.jpg"); 
+	  background-attachment: initial;
 
 }
 }
