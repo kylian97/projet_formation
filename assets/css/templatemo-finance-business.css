@@ -1581,8 +1581,8 @@ margin-bottom:50px;
 			rgba(0, 0, 0, 0.1)
 		  ),
 		  url("../images/travaillons-ensemble-mobile-600px.jpg"); 
-		  background-size: contain;
-	
+		  
+		background-position: unset;
 	}
 
 
