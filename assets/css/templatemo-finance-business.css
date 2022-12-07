@@ -1296,6 +1296,19 @@ footer .contact-form button.filled-button:hover {
 
 /* Responsive Style */
 
+@media (max-height:420px){
+	
+	.main-banner .text-content p {
+		font-size: 15px;
+		line-height:22px;
+		margin-bottom:19px;
+	}
+	a.filled-button{
+		padding:11px 12px;
+	}
+
+}
+
 @media(max-width:420px){
 
 	.main-banner .text-content h6 {
