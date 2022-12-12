@@ -1570,8 +1570,14 @@ margin-bottom:50px;
       ),
       url("../images/travaillons-ensemble-tablette-final.jpg"); 
 	  background-attachment: initial;
-
 }
+
+.workTogether,    
+	.navbar .navbar-brand h2,
+	.main-banner .text-content{
+		text-shadow: none;
+	}
+
 }
 
 @media (max-width:766px){
@@ -1582,18 +1588,92 @@ margin-bottom:50px;
 			rgba(0, 0, 0, 0.12)
 		  ),
 		  url("../images/travaillons-ensemble-mobile-600px.jpg"); 
-		  
 		background-attachment: initial;
 		
+
 	}
-	
-	.workTogether,
-	.fun-facts h2,    
+	.fun-facts h2 {
+		filter: drop-shadow(0px 0px 0.5px #0000008f);
+	}
+	.workTogether,    
 	.navbar .navbar-brand h2,
 	.main-banner .text-content{
 		text-shadow: none;
 	}
 
+
+
 }
 
+
+
+
+
+/* scroll animation */ 
+
+
+.reveal {
+	position: relative;
+	opacity: 0;
+  }
+  
+  .reveal.active {
+	opacity: 1;
+  }
+  .active.fade-top {
+	animation: fade-top 1s ease-in;
+  }
+  .active.fade-bottom {
+	animation: fade-bottom 1s ease-in;
+  }
+  .active.fade-left {
+	animation: fade-left 1s ease-in;
+  }
+  .active.fade-right {
+	animation: fade-right 1s ease-in;
+  }
+
+  @keyframes fade-top {
+	0% {
+	  transform: translateY(50px);
+	  opacity: 0;
+	}
+	100% {
+	  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+
+  @keyframes fade-bottom {
+	0% {
+	  transform: translateY(50px);
+	  opacity: 0;
+	}
+	100% {
+	  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+  @keyframes fade-left {
+	0% {
+	  transform: translateX(-100px);
+	  opacity: 0;
+	}
+	100% {
+	  transform: translateX(0);
+	  opacity: 1;
+	}
+  }
+  
+  @keyframes fade-right {
+	0% {
+	  transform: translateX(100px);
+	  opacity: 0;
+	}
+	100% {
+	  transform: translateX(0);
+	  opacity: 1;
+	}
+  }
+  
 
